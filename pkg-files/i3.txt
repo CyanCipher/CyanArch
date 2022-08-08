@@ -1,0 +1,25 @@
+xorg-server
+xorg-apps
+xorg-xinit
+i3-gaps
+i3blocks
+i3lock
+dmenu
+numlockx
+lightdm
+lightdm-gtk-greeter
+--END OF MINIMAL INSTALL--
+noto-fonts
+ttf-ubuntu-font-family
+ttf-dejavu
+ttf-freefont
+ttf-liberation
+ttf-droid
+ttf-roboto
+terminus-font
+rxvt-unicode
+ranger
+rofi
+lxappearance
+arc-gtk-theme
+papirus-icon-theme
