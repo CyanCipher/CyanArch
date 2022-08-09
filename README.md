@@ -10,8 +10,6 @@ This README contains the steps I do to install and configure a fully-functional 
 
 Download ArchISO from <https://archlinux.org/download/> and put on a USB drive with [Etcher](https://www.balena.io/etcher/), [Ventoy](https://www.ventoy.net/en/index.html), or [Rufus](https://rufus.ie/en/)
 
-If you don't want to build using this script I did create an image @ <https://cttstore.com/arch-titus>
-
 ## Boot Arch ISO
 
 From initial Prompt type the following commands:
@@ -20,11 +18,11 @@ From initial Prompt type the following commands:
 pacman -Sy git
 git clone https://github.com/ChrisTitusTech/ArchTitus
 cd ArchTitus
-./archtitus.sh
+./cyanarch.sh
 ```
 
 ### System Description
-This is completely automated arch install. It includes prompts to select your desired desktop environment, window manager, AUR helper, and whether to do a full or minimal install. The KDE desktop environment on arch includes all the packages I use on a daily basis, as well as some customizations.
+This is completely automated arch install. It includes prompts to select your desired desktop environment, window manager, AUR helper, and whether to do a full or minimal install. The KDE desktop environment on arch includes all the packages for use on a daily basis, as well as some customizations.
 
 ## Troubleshooting
 
@@ -61,4 +59,4 @@ An issue is easier to resolve if it contains a few important pieces of informati
 ## Credits
 
 - Original packages script was a post install cleanup script called ArchMatic located here: https://github.com/rickellis/ArchMatic
-- Thank you to all the folks that helped during the creation from YouTube Chat! Here are all those Livestreams showing the creation: <https://www.youtube.com/watch?v=IkMCtkDIhe8&list=PLc7fktTRMBowNaBTsDHlL6X3P3ViX3tYg>
+- This is a fork of ArchTitus github repo, I've made some changes according to my neeeds.
