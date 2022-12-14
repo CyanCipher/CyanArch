@@ -1,5 +1,5 @@
 # CyanArch Installer Script
-[![GitHub Super-Linter](https://github.com/ChrisTitusTech/ArchTitus/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+[![GitHub Super-Linter](https://github.com/CyanCipher/CyanArch/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 <img src="https://arcolinux.com/wp-content/uploads/2019/11/change-language.jpg" />
 
@@ -16,8 +16,8 @@ From initial Prompt type the following commands:
 
 ```
 pacman -Sy git
-git clone https://github.com/ChrisTitusTech/ArchTitus
-cd ArchTitus
+git clone https://github.com/CyanCipher/CyanArch
+cd CyanArch
 ./cyanarch.sh
 ```
 
